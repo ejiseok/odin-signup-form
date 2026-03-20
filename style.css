@@ -12,6 +12,25 @@
   --focused-input-field-border-color: #3939ff;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: antiquewhite;
+  height: 100vh;
+  display: flex;
+}
+
+.background {
+  background-color: yellow;
+  height: 100%;
+  flex-grow: 3.5;
+}
+
+.main {
+  background-color: bisque;
+  height: 100%;
+  flex-grow: 6.5;
 }
