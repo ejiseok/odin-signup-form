@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "norsebold";
+  src:
+    url(fonts/Norsebold.woff2),
+    url(fonts/Norsebold.woff);
+}
+
+:root {
+  --create-button-color: #596D48;
+  --default-input-field-border-color: #E5E7EB;
+  --invalid-input-field-border-color: #ff2323;
+  --focused-input-field-border-color: #3939ff;
+}
+
 body {
   background-color: antiquewhite;
 }
