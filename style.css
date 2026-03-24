@@ -116,6 +116,25 @@ body {
   text-transform: uppercase;
   color: #38414E;
   font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.form-input-item input {
+  height: 2rem;
+  border: 1px solid var(--default-input-field-border-color);
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+
+.form-input-item input:focus {
+  border: 1px solid var(--focused-input-field-border-color);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #999;
+}
+
+.form-input-item input:invalid {
+  border: 1px solid var(--invalid-input-field-border-color);
+  border-radius: 5px;
 }
 
 .form-input-item > * {
