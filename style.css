@@ -159,3 +159,14 @@ body {
 .form-submit-button:hover {
   cursor: pointer;
 }
+
+.login-suggestion {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.login-suggestion a {
+  color: var(--create-button-color);
+  text-decoration: none;
+}
