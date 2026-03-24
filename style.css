@@ -66,5 +66,6 @@ body {
 .main {
   background-color: bisque;
   height: 100%;
+  max-width: 900px;
   flex-grow: 7;
 }
